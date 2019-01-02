@@ -35,8 +35,8 @@ Public Class Guru
         TextBox3.Text = ""
         ComboBox1.Text = ""
         ComboBox1.Items.Clear()
-        ComboBox1.Items.Add("PRIA")
-        ComboBox1.Items.Add("WANITA")
+        ComboBox1.Items.Add("Laki-laki")
+        ComboBox1.Items.Add("Perempuan")
         conn.Close()
     End Sub
 
@@ -113,4 +113,6 @@ Public Class Guru
     Private Sub TextBox1_TextChanged(sender As Object, e As EventArgs) Handles TextBox1.TextChanged
 
     End Sub
+
+
 End Class
