@@ -158,7 +158,7 @@ Partial Class Guru
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Name = "Guru"
-        Me.Text = "Form1"
+        Me.Text = "Data Guru"
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
