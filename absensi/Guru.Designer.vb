@@ -37,6 +37,7 @@ Partial Class Guru
         Me.Button4 = New System.Windows.Forms.Button()
         Me.Button5 = New System.Windows.Forms.Button()
         Me.Label5 = New System.Windows.Forms.Label()
+        Me.Label6 = New System.Windows.Forms.Label()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -164,17 +165,27 @@ Partial Class Guru
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(220, 159)
+        Me.Label5.Location = New System.Drawing.Point(261, 148)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(25, 13)
         Me.Label5.TabIndex = 14
         Me.Label5.Text = "NIP"
+        '
+        'Label6
+        '
+        Me.Label6.AutoSize = True
+        Me.Label6.Location = New System.Drawing.Point(330, 104)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(25, 13)
+        Me.Label6.TabIndex = 15
+        Me.Label6.Text = "NIP"
         '
         'Guru
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(464, 331)
+        Me.Controls.Add(Me.Label6)
         Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.Button5)
         Me.Controls.Add(Me.Button4)
@@ -213,4 +224,5 @@ Partial Class Guru
     Friend WithEvents Button4 As Button
     Friend WithEvents Button5 As Button
     Friend WithEvents Label5 As Label
+    Friend WithEvents Label6 As Label
 End Class
